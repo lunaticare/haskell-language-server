@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/haskell/haskell-language-server)
+
 # haskell-language-server
 
 [![License Apache 2.0][badge-license]][license]
