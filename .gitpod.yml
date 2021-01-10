@@ -3,4 +3,8 @@ image:
 
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
-    command: cachix use haskell-language-server
+    command: |
+      cachix use haskell-language-server
+      nix-shell
+      cabal update
+      cabal build
